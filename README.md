@@ -70,23 +70,23 @@ Backend API para gerenciamento de contatos com autenticação JWT e CRUD complet
 ## 📂 Estrutura do Projeto
 mycontacts-backend/
 ├── config/
-│   └── dbConnection.js    # Conexão com o MongoDB
+│ └── dbConnection.js # Conexão com o MongoDB
 ├── controllers/
-│   ├── contactControllers.js  # Lógica dos contatos
-│   └── userController.js      # Lógica de usuários
+│ ├── contactControllers.js # Lógica dos contatos
+│ └── userController.js # Lógica de usuários
 ├── middleware/
-│   ├── errorHandler.js        # Tratamento de erros
-│   └── validateTokenHandler.js # Validação JWT
+│ ├── errorHandler.js # Tratamento de erros
+│ └── validateTokenHandler.js # Validação JWT
 ├── models/
-│   ├── contactModel.js        # Modelo de contatos
-│   └── userModel.js           # Modelo de usuários
+│ ├── contactModel.js # Modelo de contatos
+│ └── userModel.js # Modelo de usuários
 ├── routes/
-│   ├── contactRoutes.js       # Rotas de contatos
-│   └── userRoutes.js          # Rotas de usuários
-├── .env                       # Variáveis de ambiente
-├── .gitignore                 # Ignora node_modules e .env
-├── package.json               # Dependências
-└── server.js                  # Ponto de entrada
+│ ├── contactRoutes.js # Rotas de contatos
+│ └── userRoutes.js # Rotas de usuários
+├── .env # Variáveis de ambiente
+├── .gitignore # Ignora node_modules e .env
+├── package.json # Dependências
+└── server.js # Ponto de entrada
 
 ## 👨‍💻 Autor
 
