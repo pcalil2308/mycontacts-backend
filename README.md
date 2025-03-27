@@ -41,7 +41,9 @@ Backend API para gerenciamento de contatos com autenticação JWT e CRUD complet
    crie um arquivo .env na raíz do projeto com:
    
   PORT=5001
+  
   CONNECTION_STRING=sua_string_mongodb
+  
   ACCESS_TOKEN_SECRET=um_segredo_forte
 
 4. **Inicie o servidor**
